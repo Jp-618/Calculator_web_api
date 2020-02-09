@@ -69,16 +69,16 @@ const calculate = () => {
 	let b = parseFloat(currentInput);
 	switch(calculationOperator){
 		case '+':
-		result = a.toFixed(5) + b.toFixed(5);
+		result = a + b;
 		break;
 		case '-':
-		result = a.toFixed(5) - b.toFixed(5);
+		result = a - b;
 		break;
 		case '*':
-		result = a.toFixed(5) * b.toFixed(5);
+		result = a * b;
 		break;
 		case '/':
-		result = a.toFixed(5) / b.toFixed(5);
+		result = a / b;
 		break;
 		default:
 		return;
